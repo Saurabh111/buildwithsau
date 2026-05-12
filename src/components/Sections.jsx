@@ -100,28 +100,28 @@ export const Projects = () => {
 // ── EXPERIENCE ──
 const expItems = [
   {
-    years: "2024–Now",
+    years: "2025–Now",
     role: "MBA — Business Analytics",
     company: "UPES · Dehradun",
     desc: "The MBA was a deliberate move to build the business layer that three years of engineering didn't give me. Strategy, GTM frameworks, market sizing, financial analysis — P&L, balance sheets, cost structures. I can now sit in a room with a CFO or a growth lead and speak their language fluently. That's the third leg of what makes a complete PM: technical depth, product instinct, and business literacy.",
     tag: "business model canvas · porter's five forces · gtm · ansoff matrix · financial analysis",
   },
   {
-    years: "2023–2025",
+    years: "Oct 2023–Feb 2025",
     role: "Senior Software Developer → De Facto PM",
     company: "DockDevelopers · Noida",
     desc: "There was no dedicated PM on my projects. So the PM work either happened or it didn't — and I made sure it happened. I ran requirement sessions with clients, wrote PRDs, made MVP prioritisation calls, scoped future phases, reviewed wireframes, finalised designs with client sign-off, set up MERN GraphQL architecture, ran sprint planning, reviewed PRs, attended daily scrums, and presented roadmaps on client calls. I didn't inherit this role. I built it.",
     tag: "prd · mvp prioritisation · roadmap · sprint planning · client communication · architecture",
   },
   {
-    years: "2022–2023",
+    years: "Feb 2022–Oct 2023",
     role: "Software Engineer — The Bridge Role",
     company: "DockDevelopers · Noida",
     desc: "Full-stack MERN development across frontend, backend APIs, and database design. But the more important thing that happened here was that I started sitting in rooms where product decisions were made — client requirement discussions, design reviews, architecture debates with senior developers. I was the person who understood the technical constraints well enough to translate them into what was actually buildable. That's when I started thinking like a PM.",
     tag: "stakeholder communication · design collaboration · requirement gathering · full-stack",
   },
   {
-    years: "2021–2022",
+    years: "Aug 2021– Feb 2022",
     role: "Intern → Software Developer",
     company: "DockDevelopers · Noida",
     desc: "I started building React pages and learned something that most PMs never do: how software actually breaks. What makes a codebase unmaintainable. Why a decision made in week one costs four weeks of rework in month six. That foundation is what lets me have genuinely honest conversations with engineering teams — about feasibility, about technical debt, about what 'done' actually means.",
@@ -383,10 +383,13 @@ export const Contact = () => {
           style={{ display: "flex", gap: "32px", alignItems: "center" }}
         >
           {[
-            { label: "saurabh@email.com ↗", href: "mailto:saurabh@email.com" },
+            {
+              label: "build with sau ↗",
+              href: "mailto:buildwithsau@gmail.com",
+            },
             {
               label: "LinkedIn ↗",
-              href: "https://linkedin.com/in/saurabhsharma",
+              href: "https://www.linkedin.com/in/saurabh-sharma-5a3292104/",
             },
           ].map((link) => (
             <a
