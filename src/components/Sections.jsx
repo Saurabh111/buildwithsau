@@ -118,14 +118,14 @@ const expItems = [
     role: "Software Engineer — The Bridge Role",
     company: "DockDevelopers · Noida",
     desc: "Full-stack MERN development across frontend, backend APIs, and database design. But the more important thing that happened here was that I started sitting in rooms where product decisions were made — client requirement discussions, design reviews, architecture debates with senior developers. I was the person who understood the technical constraints well enough to translate them into what was actually buildable. That's when I started thinking like a PM.",
-    tag: "stakeholder communication · design collaboration · requirement gathering · full-stack",
+    tag: "full-stack · stakeholder communication · design collaboration · requirement gathering · technical scoping ",
   },
   {
     years: "Aug 2021– Feb 2022",
     role: "Intern → Software Developer",
     company: "DockDevelopers · Noida",
     desc: "I started building React pages and learned something that most PMs never do: how software actually breaks. What makes a codebase unmaintainable. Why a decision made in week one costs four weeks of rework in month six. That foundation is what lets me have genuinely honest conversations with engineering teams — about feasibility, about technical debt, about what 'done' actually means.",
-    tag: "react · mern · sdlc · component architecture",
+    tag: "react · SPAs",
   },
 ];
 
